@@ -1,0 +1,72 @@
+<html>
+    <head>
+<title> Tic Tac Toe</title>
+        <link rel="stylesheet" href="main.css" />
+    </head>
+    <body>
+        <div id="popup" class="popup">
+            <div id="winnerPop" class="winnerPop">
+            </div>
+            <button id="playAgain" class="playAgain" href="playAgain" onClick="hidePopUp()">Play Again!</button>
+            </div>
+          <div id="all" class="all">
+          <h1 id="title">
+            Tic-Tac-Toe
+          </h1>
+          <div class="choose">
+            <button id="X" class="X" onClick="playerChoose(this.id)">
+            X
+          </button>
+            <p class="or">
+              Or
+            </p>
+            <button id="O" class="O" onClick="playerChoose(this.id)">
+            O
+          </button>
+          </div>
+          
+          <div class="wrapper">
+            <div class="row1">
+              <button id="1" class="one" onClick="player(this)">
+               &nbsp;
+            </button>
+              <button id="2" class="two" onClick="player(this)">
+               &nbsp;
+            </button>
+              <button id="3" class="three" onClick="player(this)">
+               &nbsp;
+            </button>
+            </div>
+            <div class="row2">
+              <button id="4" class="four" onClick="player(this)">
+              &nbsp;
+            </button>
+              <button id="5" class="five" onClick="player(this)">
+               &nbsp;
+            </button>
+              <button id="6" class="six" onClick="player(this)">
+               &nbsp;
+            </button>
+            </div>
+            <div class="row3">
+              <button id="7" class="seven" onClick="player(this)">
+              &nbsp;
+            </button>
+              <button id="8" class="eight" onClick="player(this)">
+               &nbsp;
+            </button>
+              <button id="9" class="nine" onClick="player(this)">
+               &nbsp;
+            </button>
+            </div>
+          </div>
+            <div class="wrapper">
+          <button id="clear" class="clear" onClick="clearAll()">
+            Clear
+          </button>
+            </div>
+          </div>
+          <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+          <script src="main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,120 @@
+#popup{
+    display: none;
+      position:fixed;
+      width: 100%;
+      z-index: 999;
+      top:25%;
+      
+    }
+    button {
+      height: 140px;
+      width: 140px;
+      margin: -2px;
+      background: none;
+      font-family: "Indie Flower", cursive;
+      font-size: 100px;
+      vertical-align: top;
+    }
+    body {
+      background: url("https://image.freepik.com/free-vector/grey-linen-texture-background_1053-253.jpg");
+    }
+    h1 {
+      text-align: center;
+      font-family: "Indie Flower", cursive;
+    }
+    .one {
+      border-right: 6px solid white;
+      font-family: "Indie Flower", cursive;
+      font-size: 100px;
+    }
+    .two {
+      border-right: 6px solid white;
+    }
+    .three {
+    }
+    .four {
+      border-right: 6px solid white;
+      border-top: 6px solid white;
+    }
+    .five {
+      border-right: 6px solid white;
+      border-top: 6px solid white;
+    }
+    .six {
+      border-top: 6px solid white;
+    }
+    .seven {
+      border-right: 6px solid white;
+      border-top: 6px solid white;
+    }
+    .eight {
+      border-right: 6px solid white;
+      border-top: 6px solid white;
+    }
+    .nine {
+      border-top: 6px solid white;
+    }
+    .choose {
+      position: center;
+      margin: auto auto 25px auto;
+      width: 418px;
+      font-size: 30px;
+    }
+    .X {
+      position: fixed;
+      height: 50px;
+      font-size: 30px;
+      background: #778899;
+      margin: auto;
+      float: left;
+       box-shadow: 5px 5px 5px #888888;
+    }
+    .O {
+      position: fixed;
+      height: 50px;
+      font-size: 30px;
+      margin-top: -64px;
+      margin-left: 275px;
+      background: #778899;
+      float: right;
+      position: fixed;  box-shadow: 5px 5px 5px #888888;
+    }
+    .or {
+      font-size: 30px;
+      margin-left: 190px;;
+    }
+    .wrapper {
+        position: relative;
+      margin: auto;
+      width: 418px;
+      background: url("http://4.bp.blogspot.com/-OpFqYklSD-k/UQcCXvRs9UI/AAAAAAAAQs8/uD3Mc7RhLl4/s1600/Chalkboard-background.jpg");
+       box-shadow: 10px 10px 5px #888888;
+    }
+    .clear {
+     position: fixed;
+      margin-top: 16px;
+      width: 418px;
+      height: 50px;
+      font-size: 30px;
+      background: #778899;
+      box-shadow: 5px 5px 5px #888888;
+    }
+    .playAgain{
+      margin: 0 auto;
+      font-size: 30px;
+      width: 50%;
+       height: 50px;
+      box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+      background: white;
+      z-index: 999;
+      display: block;
+    }
+   
+    .winnerPop{
+      text-align: center;
+      font-size: 80px;
+      z-index: 999;
+      margin: 0 auto;
+      font-family: "Indie Flower", cursive;
+      width: 50%;
+    }
